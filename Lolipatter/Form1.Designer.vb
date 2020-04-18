@@ -49,7 +49,7 @@ Partial Class form1
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.AutoSize = True
         Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(348, 12)
+        Me.Button1.Location = New System.Drawing.Point(358, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(272, 146)
         Me.Button1.TabIndex = 1
@@ -61,7 +61,7 @@ Partial Class form1
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Ink Free", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(354, 171)
+        Me.Label1.Location = New System.Drawing.Point(359, 162)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(101, 23)
         Me.Label1.TabIndex = 2
@@ -72,7 +72,7 @@ Partial Class form1
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(475, 170)
+        Me.Label2.Location = New System.Drawing.Point(466, 160)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(21, 25)
         Me.Label2.TabIndex = 3
@@ -118,7 +118,7 @@ Partial Class form1
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "form1"
-        Me.Text = "LoliPatter v0.03"
+        Me.Text = "LoliPatter v0.04"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
