@@ -7,7 +7,7 @@ QC'd by Ir4un
 -created this changelog
 -cleaning layout + anchoring props
 
-(v0.05)
+(v0.03)
 -added cute patting image
 
 (v0.02)
