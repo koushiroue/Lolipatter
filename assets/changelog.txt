@@ -1,0 +1,16 @@
+Loli Patter v0.04
+Developed by CEL
+QC'd by Ir4un
+
+18.4.2020
+(V0.04)
+-created this changelog
+
+(v0.05)
+-added cute patting image
+(v0.02)
+-tried to increment the pat counter
+
+(v0.01)
+
+-initial release
