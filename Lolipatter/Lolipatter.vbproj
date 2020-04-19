@@ -41,6 +41,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>Lolipatter.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -163,6 +164,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="!eye.ico" />
+    <EmbeddedResource Include="Resources\eyee.ico" />
+    <None Include="Resources\!eyee.ico" />
+    <Content Include="Resources\!eyee.png" />
+    <None Include="Resources\Icon1.ico" />
+    <None Include="Resources\img1te.png" />
+    <None Include="Resources\img22.jpg" />
+    <None Include="Resources\img1de.png" />
+    <None Include="Resources\img1sade.png" />
     <None Include="Resources\img1eext2.png" />
     <None Include="Resources\img1ext.png" />
   </ItemGroup>
