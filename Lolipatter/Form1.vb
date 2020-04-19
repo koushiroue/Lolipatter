@@ -38,8 +38,9 @@ This message box may or may not be seen.
 
 The loli is terrified.")
         End If
-        If counter = 550 Then
+        If counter >= 550 Then
             Button1.Text = "Bash"
+            Label1.Text = "Bash count ="
         End If
         If counter = 600 Then
             PictureBox3.Visible = False
@@ -55,14 +56,11 @@ The loli is terrified.")
 
 
 
-
-
-
-
-
 The loli is unconscious.")
+        End If
+        If counter = 800 Then
             Me.Text = "LoliKiller v666"
-
+            Me.Icon = New Icon(Me.GetType(), "eyee.ico")
         End If
         If counter = 1000 Then
             Button1.Visible = False
@@ -71,7 +69,7 @@ The loli is unconscious.")
             Label1.Text = ""
             Label2.Text = ""
             Label3.Text = ""
-            Me.Icon = New Icon(Me.GetType(), "eyee.ico")
+
         End If
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
