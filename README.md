@@ -1,2 +1,3 @@
 # Lolipatter
-vb stuff
+
+Current Version = v0.1
