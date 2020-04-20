@@ -69,7 +69,7 @@ The loli is unconscious.")
             Label1.Text = ""
             Label2.Text = ""
             Label3.Text = ""
-
+            Me.ControlBox = False
         End If
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -77,7 +77,7 @@ The loli is unconscious.")
         Label1.Text = "resistance is futile."
         Label2.Text = ""
         Label3.Text = counter
-        If counter = 2000 Then
+        If counter = 1020 Then
             Button3.Enabled = True
             Button3.Visible = True
         End If

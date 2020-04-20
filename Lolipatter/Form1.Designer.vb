@@ -48,7 +48,7 @@ Partial Class Form1
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.AutoSize = True
         Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(350, 11)
+        Me.Button1.Location = New System.Drawing.Point(350, 13)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(272, 146)
         Me.Button1.TabIndex = 1

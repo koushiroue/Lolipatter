@@ -167,9 +167,6 @@
   <ItemGroup>
     <Content Include="!eye.ico" />
     <EmbeddedResource Include="Resources\eyee.ico" />
-    <None Include="Resources\!eyee.ico" />
-    <Content Include="Resources\!eyee.png" />
-    <None Include="Resources\Icon1.ico" />
     <None Include="Resources\img1te.png" />
     <None Include="Resources\img22.jpg" />
     <None Include="Resources\img1de.png" />
