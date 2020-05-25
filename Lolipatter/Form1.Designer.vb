@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -35,6 +36,7 @@ Partial Class Form1
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -48,10 +50,11 @@ Partial Class Form1
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.AutoSize = True
         Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(350, 13)
+        Me.Button1.Location = New System.Drawing.Point(350, 10)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(272, 146)
         Me.Button1.TabIndex = 1
+        Me.Button1.TabStop = False
         Me.Button1.Text = "Pat"
         Me.Button1.UseCompatibleTextRendering = True
         Me.Button1.UseVisualStyleBackColor = True
@@ -61,7 +64,7 @@ Partial Class Form1
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Ink Free", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(359, 162)
+        Me.Label1.Location = New System.Drawing.Point(350, 164)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(0, 23)
         Me.Label1.TabIndex = 2
@@ -71,7 +74,7 @@ Partial Class Form1
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(466, 160)
+        Me.Label2.Location = New System.Drawing.Point(466, 164)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(0, 25)
         Me.Label2.TabIndex = 3
@@ -82,7 +85,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label3.Location = New System.Drawing.Point(418, 429)
+        Me.Label3.Location = New System.Drawing.Point(381, 437)
         Me.Label3.Name = "Label3"
         Me.Label3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label3.Size = New System.Drawing.Size(0, 13)
@@ -117,7 +120,7 @@ Partial Class Form1
         '
         Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox4.Image = Global.Lolipatter.My.Resources.Resources.img22
-        Me.PictureBox4.Location = New System.Drawing.Point(2, 2)
+        Me.PictureBox4.Location = New System.Drawing.Point(2, 10)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(706, 451)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -128,7 +131,7 @@ Partial Class Form1
         '
         Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox1.Image = Global.Lolipatter.My.Resources.Resources.img1ext
-        Me.PictureBox1.Location = New System.Drawing.Point(2, 2)
+        Me.PictureBox1.Location = New System.Drawing.Point(2, 10)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(342, 451)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -139,7 +142,7 @@ Partial Class Form1
         '
         Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox2.Image = Global.Lolipatter.My.Resources.Resources.img1eext2
-        Me.PictureBox2.Location = New System.Drawing.Point(2, 2)
+        Me.PictureBox2.Location = New System.Drawing.Point(2, 10)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(342, 451)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -150,7 +153,7 @@ Partial Class Form1
         '
         Me.PictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox6.Image = Global.Lolipatter.My.Resources.Resources.img1te
-        Me.PictureBox6.Location = New System.Drawing.Point(2, 2)
+        Me.PictureBox6.Location = New System.Drawing.Point(2, 10)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(342, 451)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -161,7 +164,7 @@ Partial Class Form1
         '
         Me.PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox3.Image = Global.Lolipatter.My.Resources.Resources.img1sade
-        Me.PictureBox3.Location = New System.Drawing.Point(2, 2)
+        Me.PictureBox3.Location = New System.Drawing.Point(2, 10)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(342, 451)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -172,12 +175,17 @@ Partial Class Form1
         '
         Me.PictureBox5.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBox5.Image = Global.Lolipatter.My.Resources.Resources.img1de
-        Me.PictureBox5.Location = New System.Drawing.Point(2, 2)
+        Me.PictureBox5.Location = New System.Drawing.Point(2, 10)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(342, 451)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox5.TabIndex = 0
         Me.PictureBox5.TabStop = False
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 70000
         '
         'Form1
         '
@@ -229,4 +237,5 @@ Partial Class Form1
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Button3 As Button
     Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents Timer1 As Timer
 End Class

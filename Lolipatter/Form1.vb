@@ -1,17 +1,22 @@
 ﻿Public Class Form1
     Private counter As Integer = 0
-    Private Sub form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private karma As Integer = 0
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         PictureBox4.Visible = False
         Button3.Visible = False
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        counter += 1
+        counter += karma + 1
         Label1.Text = "pat count = "
         Label2.Text = counter
         PictureBox1.Visible = False
+
         If counter = 1 Then
             MessageBox.Show("You patted the loli for the first time.
-The loli is delighted.")
+The loli is delighted.", "Your First Pat")
+        End If
+        If counter = 2 Then
+            MessageBox.Show("You did it again, you!", "Uwu")
         End If
         If counter = 10 Then
             MessageBox.Show("You patted the loli 10 times.
@@ -38,7 +43,7 @@ This message box may or may not be seen.
 
 The loli is terrified.")
         End If
-        If counter >= 550 Then
+        If counter >= 575 Then
             Button1.Text = "Bash"
             Label1.Text = "Bash count ="
         End If
@@ -58,11 +63,11 @@ The loli is terrified.")
 
 The loli is unconscious.")
         End If
-        If counter = 800 Then
+        If counter >= 800 Then
             Me.Text = "LoliKiller v666"
             Me.Icon = New Icon(Me.GetType(), "eyee.ico")
         End If
-        If counter = 1000 Then
+        If counter >= 1000 And karma = 1 Then
             Button1.Visible = False
             PictureBox4.Visible = True
             MessageBox.Show("The loli resisted your foul headbashing session and now you are being ""patted"" instead.")
@@ -70,14 +75,18 @@ The loli is unconscious.")
             Label2.Text = ""
             Label3.Text = ""
             Me.ControlBox = False
+            karma = 2
+        ElseIf counter >= 1000 Then
+            MessageBox.Show("You're a terrible person.")
+            Me.Close()
         End If
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        counter += 1
+        counter += karma + 1
         Label1.Text = "resistance is futile."
         Label2.Text = ""
         Label3.Text = counter
-        If counter = 1020 Then
+        If counter = 2000 Then
             Button3.Enabled = True
             Button3.Visible = True
         End If
@@ -85,5 +94,13 @@ The loli is unconscious.")
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         MessageBox.Show("Behind you")
         Me.Close()
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        If counter >= 200 Then
+            karma = 1
+        Else karma = 0
+
+        End If
     End Sub
 End Class

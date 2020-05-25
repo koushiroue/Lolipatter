@@ -1,12 +1,14 @@
 Loli Patter v0.1
 Developed by CEL
 QC'd by Ir4un
-19.4.2020
+
+19.4.20
 (v0.1)
 -added pat roadmap (up to 2000!)
 -added manual exit button for those lolipatter diehards!
 -changed the .NET requirement from 4.7.2 to 4
-18.4.2020
+
+18.4.20
 (V0.04)
 -created this changelog
 -cleaning layout + anchoring props
