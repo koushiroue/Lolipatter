@@ -2,9 +2,11 @@ Loli Patter v0.1
 Developed by CEL
 QC'd by Ir4un
 
+26.5.20
 (v0.1.1)
--tried adding multiple forms.
+-tried managing multiple forms.
 -added splash screen.
+-added prompt when opening multiple instance.
 -reword some texts.
 -improving changelog.
 
