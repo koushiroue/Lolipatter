@@ -17,11 +17,11 @@ The goal of this program is to create a sensible piece of entertainment filled w
 
 ![alt text](https://github.com/koushiroue/Lolipatter/blob/master/assets/preview/p2.png "Patting the loli")
 
-### Building LoliPatter
+## Building LoliPatter
 
 - Require "Visual Studio 2019"
 - Must install ".NET Framework 4 or higher"
 
-### Credits
+## Credits
 @koushiroue - Developer
 @realir4un - Advisor
