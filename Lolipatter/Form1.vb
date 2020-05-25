@@ -56,11 +56,6 @@ The loli is terrified.")
 
 
 
-
-
-
-
-
 The loli is unconscious.")
         End If
         If counter >= 800 Then
