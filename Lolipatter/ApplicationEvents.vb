@@ -10,7 +10,10 @@ Namespace My
     Partial Friend Class MyApplication
         Private Sub MyApplication_Startup(sender As Object, e As StartupEventArgs) Handles Me.Startup
             Threading.Thread.Sleep(1000)
+        End Sub
 
+        Private Sub MyApplication_StartupNextInstance(sender As Object, e As StartupNextInstanceEventArgs) Handles Me.StartupNextInstance
+            MessageBox.Show("Too much loli-headpatting can cause diabetes!", "Prompt", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly)
         End Sub
     End Class
 End Namespace
