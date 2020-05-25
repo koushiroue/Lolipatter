@@ -7,16 +7,15 @@
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         counter += karma + 1
-        Label1.Text = "pat count = "
+        Label1.Text = "Pat Count~ = "
         Label2.Text = counter
         PictureBox1.Visible = False
-
         If counter = 1 Then
             MessageBox.Show("You patted the loli for the first time.
 The loli is delighted.", "Your First Pat")
         End If
         If counter = 2 Then
-            MessageBox.Show("You did it again, you!", "Uwu")
+            MessageBox.Show("You did it again, you!", "uwu")
         End If
         If counter = 10 Then
             MessageBox.Show("You patted the loli 10 times.
@@ -31,7 +30,7 @@ The loli is very happy to recieve this many headpats.")
 The loli felt fulfilled with 100 headpats.
 
 You no longer feel the need to pat the loli.")
-            Label3.Text = "PS : you can also use Enter or Space key!"
+            Label3.Text = "PS : you can also use Enter key!"
         End If
         If counter = 200 Then
             PictureBox2.Visible = False
@@ -43,7 +42,7 @@ This message box may or may not be seen.
 
 The loli is terrified.")
         End If
-        If counter >= 575 Then
+        If counter >= 580 Then
             Button1.Text = "Bash"
             Label1.Text = "Bash count ="
         End If
@@ -58,7 +57,7 @@ The loli is terrified.")
 
 The loli is unconscious.")
         End If
-        If counter >= 800 Then
+        If counter >= 900 Then
             Me.Text = "LoliKiller v666"
             Me.Icon = New Icon(Me.GetType(), "eyee.ico")
         End If
