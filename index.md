@@ -1,7 +1,7 @@
 ## Welcome to the cum zone
 
-[Repo here epstein ---->>>>](https://github.com/koushiroue/Lolipatter)
-Only cum inside anime girls 
+[Repo here epstein](https://github.com/koushiroue/Lolipatter)
+Only cum inside anime lolies 
 
 # Quivering clit 
 Double jointed pussy 
