@@ -15,9 +15,9 @@ The goal of this program is to create a sensible piece of entertainment filled w
 
 ### Screenshots
 
-![alt text](https://github.com/koushiroue/Lolipatter/blob/master/assets/preview/p1.png "Upon starting up")
+![alt text](../master/assets/preview/p1.png "Upon starting up")
 
-![alt text](https://github.com/koushiroue/Lolipatter/blob/master/assets/preview/p2.png "Patting the loli")
+![alt text](../master/assets/preview/p2.png "Patting the loli")
 
 ## Building LoliPatter
 
