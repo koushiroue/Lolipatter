@@ -27,4 +27,4 @@ The goal of this program is to create a sensible piece of entertainment filled w
 ## Credits
 
 @koushiroue - Developer
-@realir4un - Advisor
+@ir4un - Advisor
