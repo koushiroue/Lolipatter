@@ -91,10 +91,11 @@ The loli is unconscious.")
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        'timer is preffered to set correlates to how fast the counter manages to bypass it
+        'timer is 70 seconds
         If counter >= 200 Then
             karma = 1
         Else karma = 0
-
         End If
     End Sub
 End Class
