@@ -1,6 +1,6 @@
 # Lolipatter
 
-Current Version = v0.1.1
+Current Version = v0.1.1 (april 2020)
 
 ![alt text][logo]
 
