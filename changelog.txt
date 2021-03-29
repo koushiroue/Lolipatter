@@ -1,8 +1,12 @@
 Loli Patter v0.1
 Developed by CEL
-QC'd by Ir4un
+QC'd by Ir4un, Fuad
 
-26.5.20
+29/03/2021
+-created love folder + dummy main.lua
+-created Apache Netbeans IDE 12.3 java project folder on root
+
+26/05/2020
 (v0.1.1)
 -tried managing multiple forms.
 -added splash screen.
@@ -10,13 +14,13 @@ QC'd by Ir4un
 -reword some texts.
 -improving changelog.
 
-19.4.20
+19/04/2020
 (v0.1)
 -added pat roadmap. (up to 2000!)
 -added manual exit button for those lolipatter diehards!
 -changed the .NET requirement from 4.7.2 to 4.
 
-18.4.20
+18/04/2020
 (V0.04)
 -created this changelog.
 -cleaning layout + anchoring props.
