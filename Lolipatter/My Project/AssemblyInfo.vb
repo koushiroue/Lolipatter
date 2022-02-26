@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Loli Headpatting Program")>
 <Assembly: AssemblyCompany("CEL")>
 <Assembly: AssemblyProduct("Lolipatter")>
-<Assembly: AssemblyCopyright("Copyright © CEL  2020")>
+<Assembly: AssemblyCopyright("Copyright © CEL  2022")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
